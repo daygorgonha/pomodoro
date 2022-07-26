@@ -45,22 +45,22 @@ mixin _$PomodoroStore on _PomodoroStore, Store {
       ActionController(name: '_PomodoroStore', context: context);
 
   @override
-  void incrementarTempo() {
+  void incrementarTempoTrabalho() {
     final _$actionInfo = _$_PomodoroStoreActionController.startAction(
-        name: '_PomodoroStore.incrementarTempo');
+        name: '_PomodoroStore.incrementarTempoTrabalho');
     try {
-      return super.incrementarTempo();
+      return super.incrementarTempoTrabalho();
     } finally {
       _$_PomodoroStoreActionController.endAction(_$actionInfo);
     }
   }
 
   @override
-  void decrementarTempo() {
+  void decrementarTempoTrabalho() {
     final _$actionInfo = _$_PomodoroStoreActionController.startAction(
-        name: '_PomodoroStore.decrementarTempo');
+        name: '_PomodoroStore.decrementarTempoTrabalho');
     try {
-      return super.decrementarTempo();
+      return super.decrementarTempoTrabalho();
     } finally {
       _$_PomodoroStoreActionController.endAction(_$actionInfo);
     }

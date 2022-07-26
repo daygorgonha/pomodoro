@@ -12,12 +12,12 @@ abstract class _PomodoroStore with Store {
   int tempoDescanso = 1;
 
   @action
-  void incrementarTempo() {
+  void incrementarTempoTrabalho() {
     tempoTrabalho++;
   }
 
   @action
-  void decrementarTempo() {
+  void decrementarTempoTrabalho() {
     tempoTrabalho--;
   }
 
