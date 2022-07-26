@@ -11,13 +11,14 @@ class Cronometro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final store = Provider.of<PomodoroStore>(context);
+
     return Container(
-      color: Colors.red,
+      color: store.estaTrabalhando() ? Colors.red : Colors.green,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            'Hora de Trabalhar',
+            store.estaTrabalhando() ? 'Hora de Trabalhar' : 'Hora de Descansar',
             style: TextStyle(
               fontSize: 40,
               color: Colors.white,
