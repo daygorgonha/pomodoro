@@ -32,7 +32,7 @@ class CronometroBotao extends StatelessWidget {
             padding: const EdgeInsets.only(right: 10),
             child: Icon(
               icone,
-              size: 35,
+              size: 30,
             ),
           ),
           Text(texto),
