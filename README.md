@@ -1,16 +1,47 @@
-# pomodoro
+<h1 align="center">Cronômetro Pomodoro 🚀 </h1>
 
-A new Flutter project.
+<h4 align="center"> 
+	  Status: Concluido 🚀 
+</h4>
 
-## Getting Started
+<br />
 
-This project is a starting point for a Flutter application.
+<p align="center">Nesse projeto foi criado um cronometro Pomodoro. Foi abordado sobre o gerenciamento do estado de aplicações, principios de programação reativa, o conceito de Observer na prática.</p>
 
-A few resources to get you started if this is your first Flutter project:
+##  Tecnologias
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img  src="https://img.shields.io/badge/MobX-%230175C2.svg?style=for-the-badge&logo=MobX&logoColor=orange">
+  <img  src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/>
+  
+</p>
+
+<br />
+
+### Instalação e Execução do Projeto
+
+- Clone este repositório
+
+```
+> https://github.com/daygorgonha/pomodoro.git
+```
+
+- Navegue até o diretório principal do projeto
+
+```
+> cd pomodoro
+```
+- Instale as dependências
+
+```
+flutter doctor
+```
+
+- Execute o projeto
+
+```
+flutter run
+```
+<br/>
